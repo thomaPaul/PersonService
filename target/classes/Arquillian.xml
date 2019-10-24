@@ -1,0 +1,7 @@
+<extension qualifier="openshift">
+        <property name="app.name">PersonService</property>
+        <property name="namespace.use.existing">com.pthoma.personService</property>
+        <property name="env.init.enabled">true</property>
+        <property name="cube.fmp.build">true</property>
+        <property name="enableImageStreamDetection">false</property>
+    </extension>

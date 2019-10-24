@@ -1,0 +1,8 @@
+<arquillian>
+   <extension qualifier="transaction">
+      <property name="manager">txManager</property>
+   </extension>
+   <extension qualifier="persistence">
+      <property name="defaultDataSource">dataSource</property>
+   </extension>
+</arquillian>
